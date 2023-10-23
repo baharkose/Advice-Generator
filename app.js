@@ -18,7 +18,7 @@ async function fetchData() {
         const idA = data.slip.id;
 
         adviceEl.innerHTML = advice;
-        spanEl.innerHTML = idA;
+        spanEl.innerHTML = `#${idA}`;
 
         // API verilerini sakla
         apiData = data;
